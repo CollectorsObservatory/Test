@@ -35,25 +35,9 @@ class Citizen {
 };
 
 int main(){
+    cout << "Hello World" << endl; 
 
-    string cin_number; 
-    cout << "Enter your national ID number: "; 
-    cin >> cin_number ; 
 
-    while(!format_cin(cin_number)) {
-        cout << "incorrect format ! Please try again !" <<endl; 
-        cout << "Enter your national ID number again: "; 
-        cin >> cin_number ; 
-
-    }
-    if (format_cin(cin_number)) {
-        cout <<"Correct Format! Checking military service status in process ! " <<endl;
-        if( military_service(cin_number)) {
-            cout << "You are invited for military Service !" << endl;}}
-
-    
-    cout << "testing git on my new machine"  << endl; 
-    cout << "added this from github to test" <<endl;
 
 
 
