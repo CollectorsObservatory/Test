@@ -52,6 +52,7 @@ Contact::Contact( const string& p_name, const string& p_email,
 
 
 int main(){
+    cout << "Added remotely" << endl; 
 
 
 
