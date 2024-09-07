@@ -36,6 +36,7 @@ class Citizen {
 
 int main(){
     cout << "Hello World" << endl; 
+    cout << "Changed file remotely" << endl; 
 
 
 
